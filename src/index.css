@@ -1,0 +1,35 @@
+/* Google Fonts dan kosmik, futuristik shriftlarni import qilamiz */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400&display=swap');
+
+/* Barcha elementlar uchun o'lchamlarni hisoblashni osonlashtiramiz */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000411; /* Chuqur kosmos qorasi */
+  color: #e0e0ff; /* Yulduz nuridek och binafsha-oq rang */
+  font-family: 'Exo 2', sans-serif; /* Asosiy matnlar uchun silliq, zamonaviy shrift */
+  overflow-x: hidden; /* Gorizontal skrollni oldini olish */
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+/* Barcha sarlavhalar uchun asosiy galaktik shrift */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Havolalar (linklar) uchun standart uslub */
+a {
+  color: #a491d9; /* Nebula binafsha rangi */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #cbbfff; /* Yorqinroq binafsha */
+}
