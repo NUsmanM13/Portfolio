@@ -25,7 +25,7 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: <FaGithub />,
-    url: 'https://github.com/',
+    url: 'https://github.com/NUsmanM13',
     color: '#e0e0ff',
   },
   {
