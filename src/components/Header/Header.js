@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <>
       <HeaderContainer>
-        <Logo to="/">NZBKV</Logo>
+        <Logo to="/">NZBKV1</Logo>
         
         {/* Katta ekranlar uchun menyu */}
         <DesktopNav>
